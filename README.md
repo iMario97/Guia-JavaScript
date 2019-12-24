@@ -54,15 +54,11 @@ https://GitHub.com/SoyMario97
 let nombre = 'Mario'
 
 const diHola = function(name) {
-return 'Hola' + name
+return 'Hola ' + name
 }
 
-diHola(nombre)
-```
-##### Salida
-
-```js
-> "Hola Mario"
+console.log(diHola(nombre))
+//El resultado es Hola Mario
 ```
 #### Ejemplo
 
