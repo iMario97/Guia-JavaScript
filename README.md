@@ -5,32 +5,28 @@
 ```js
 // Tipos de variables
 
-let nombre = 'Mario' //  String (texto)
+let nombre = 'manuela'//String (texto)
 
-let edad = 17 //  Número
+let edad = 17//Número
 
-let comidas = ['platano', 'manzana'] // Array
+let comidas = ['fideos', 'frijoles']// Array
 
-let activo = true //  Booleano (Verdadero o falso)
+let pendejo = true//(Verdadero o falso)
 
 let familia = {
-papa: 'manuel',
-mama: 'josefa'.
-hijos: ['bartolo', 'nacho']
-} //  Objeto
+papa: 'manco',
+mama: 'tierrin'.
+hijos: ['paulo', 'julio']
+}//  Objeto
 ```
 #### Ejemplo:
 ```js
-let nombre = 'Mario'
-let edad = 17
+let nombre = 'Andre'
+let edad = 13
 
-console.log(nombre, edad = 16)
+console.log(nombre, edad = 18)
+//El Resultado es Andre 18
 ```
-##### Salida
-```js
-> "Mario" 16
-```
- 
 # Constantes
 
 > ¿Que son las constantes? Las constantes son elementos que sirven para almacenar datos.
@@ -38,17 +34,14 @@ console.log(nombre, edad = 16)
 
 #### Ejemplo
 ```js
-const birthYear = 2002
+const link `https://GitHub.com/SoyMario97`
 
-console.log(birthYear = 2020)
-
+console.log(link)
 ```
 
-##### Salida
+##### Resultado
 ```js
-// ERROR: La constante birthYear ya esta definida.
-
-> 2002
+https://GitHub.com/SoyMario97
 ```
 
 # Funciones
@@ -58,7 +51,6 @@ console.log(birthYear = 2020)
 
 #### Ejemplo:
 ```js
-
 let nombre = 'Mario'
 
 const diHola = function(name) {
@@ -66,33 +58,25 @@ return 'Hola' + name
 }
 
 diHola(nombre)
-
 ```
-
 ##### Salida
 
 ```js
 > "Hola Mario"
 ```
-
-
-# Condicionales
-
-> ¿Que es una condicional? Una condicional es un 'Si mi casa es roja haz esto, si no lo es haz lo otro'
-
 #### Ejemplo
 
 ```js
 let user = {
-name: 'Mario',
-edad: 17,
-padre: false
+name: 'Pedro',
+edad: 24,
+pendejo: false
 }
 
-if(user.padre) { /* Si padre es verdad (true) ejecuta la funcion1() */
+if(user.pendejo) { /* Si pendejo es verdad (true) ejecuta la funcion1() */
 funcion1()
-} else {  /*  Pero si padre no es verdad (false) ejecuta la funcion_no_es_padre() */
-funcion_no_es_padre()
+} else {  /* si pendejo no es verdad (false) ejecuta la funcion_no_es_pendejo() */
+funcion_no_es_pendejo()
 }
 ```
 
@@ -101,21 +85,19 @@ funcion_no_es_padre()
 #### Ejemplo
 
 ```js
-let amigos = ['Mario', 'Kiera', 'Julio', 'Tom']
+let amigos = ['Mario', 'Crater', 'Fabricio', 'ManU']
 
 for(let i = 0 ; i < amigos.length ; i++) {
-  console.log('Hola, ' + amigos[i]) // Le hemos dicho que imprima (escriba) los amigos uno detras de otro
-  }
+console.log('Wenas, ' + amigos[i])//le hemos dicho que en la consola salga Wenas, <Nombre>
+}
 ```
 ##### Salida
 
 ```js
-
-> "Hola, Mario"
-> "Hola, Kiera"
-> "Hola, Julio"
-> "Hola, Tom"
-
+> "Wenas, Mario"
+> "Wenas, Crater"
+> "Wenas, Fabricio"
+> "Wenas, ManU"
 ```
 ## Guia realizada por Mario
 > Nombre de Discord: [YoSoyMario#0319](https://DiscordApp.com/users/433039910077988874)
