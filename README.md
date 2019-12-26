@@ -34,7 +34,7 @@ console.log(nombre, edad = 18)
 
 #### Ejemplo
 ```js
-const link `https://GitHub.com/SoyMario97`
+const link = `https://GitHub.com/SoyMario97`
 
 console.log(link)
 ```
