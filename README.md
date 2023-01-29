@@ -25,29 +25,29 @@ let nombre = 'Andre'
 let edad = 13
 
 console.log(nombre, edad = 18)
-//El Resultado es Andre 18
+//El resultado es Andre 18
 ```
 # Constantes
 
 > ¿Que son las constantes? Las constantes son elementos que sirven para almacenar datos.
-> 'const' es una constante que no puede cambiar a lo largo del codigo.
+> 'const' es una constante que no puede cambiar a lo largo del código.
 
 #### Ejemplo
 ```js
-const link = `https://GitHub.com/SoyMario97`
+const link = `https://github.com/iMario97`
 
 console.log(link)
 ```
 
 ##### Resultado
 ```js
-https://GitHub.com/SoyMario97
+https://github.com/SoyMario97
 ```
 
 # Funciones
 
-> ¿Que es una funcion? Una funcion es una 'receta' que requiere ingredientes cuales se almacenan.
-> Tus ingredientes de la receta son tus datos de la funcion.
+> ¿Qué es una función? Una función es una 'receta' que requiere ingredientes cuales se almacenan.
+> Tus ingredientes de la receta son tus datos de la función.
 
 #### Ejemplo:
 ```js
